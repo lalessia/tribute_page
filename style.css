@@ -1,0 +1,179 @@
+html{
+  font-family: 'Raleway', sans-serif;
+}
+
+header{
+  text-align: center;
+  padding: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  border-bottom: 1px solid #ccc;
+}
+
+footer{
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: -1px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgba(217, 187, 18, 1);
+  color: #59443A;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgba(217, 187, 18, 1);
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 15px 15px;
+}
+
+nav ul li a{
+  color: #59443A;
+}
+
+nav ul li a:hover{
+  color: #481F2E;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+strong{
+  color: #481F2E;
+}
+
+a{
+    text-decoration: none;
+}
+
+figcaption{
+  text-align: center;
+  color: #481F2E;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  background-color: rgba(217, 187, 18, 0.2);
+  margin-top: 100px;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+thead tr th{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 30px;
+  color: #481F2E;
+}
+
+.containerImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerBiography{
+
+}
+
+.biography{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+
+.date{
+  text-align: center;
+  color: #59443A;
+}
+
+.event{
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.containerAphorisms{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.aphorism{
+  background-color: #eee;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.containerBibliography{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+#home{
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
+#image{
+  border-radius: 50%;
+  border: solid 3px #EECD03;
+  height: auto;
+  width: 100%;
+}
+
+#title{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+}
+
+#bibliographyList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bibliographyList li a{
+    color: #59443A;
+}
+
+#bibliographyList li a:hover{
+  color: #481F2E;
+  font-weight: bold;
+}
